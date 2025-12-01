@@ -1,0 +1,71 @@
+/* General body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+    text-align: center;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* Portrait image */
+.portrait {
+    display: block;
+    width: 200px;         
+    border-radius: 10px;  
+    margin: 20px auto;    
+    border: 2px solid #2c3e50;
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
